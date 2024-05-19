@@ -7,6 +7,9 @@ import { CustomerPage } from "./module/customer/page";
 import { TeamPage } from "./module/team/page";
 import { TestimonialsPage } from "./module/testimonials/page";
 import { ProjectsPage } from "./module/projects/page";
+import { PriceListPage } from "./module/pricelist/page";
+import { ContactPage } from "./module/contact/page";
+import { Footer } from "./ui/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +23,9 @@ export default function Home() {
       <TeamPage />
       <TestimonialsPage />
       <ProjectsPage />
+      <PriceListPage />
+      <ContactPage />
+      <Footer />
     </>
   );
 }

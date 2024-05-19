@@ -42,6 +42,9 @@ const config = {
         "sage" : "#97fe87",
         "creamy" : "#fee586"
       },
+      backgroundImage : {
+        "contactImage" : "url('/contact.png')"
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
