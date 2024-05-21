@@ -10,16 +10,16 @@ export const ButtonSwitch = () => {
     };
 
     return (
-        <div className="my-12 p-0 overflow-hidden w-max flex font-semibold text-3xl mx-auto border-4 border-black rounded-full">
+        <div className="my-12 p-0 overflow-hidden w-max flex font-semibold xl:text-3xl xs:text-xl mx-auto border-4 border-black rounded-full">
           <button
             onClick={() => togglePlan("monthly")}
-            className={`rounded-l-full px-14 py-2 duration-150 ${!isYearly ? 'bg-black text-white' : ''} `}
+            className={`rounded-l-full xs:px-10 xl:px-14 py-2 duration-150 ${!isYearly ? 'bg-black text-white' : ''} `}
           >
             Monthly
           </button>
           <button
             onClick={() => togglePlan("yearly")}
-            className={`rounded-r-full px-14 py-2 duration-150 ${isYearly ? 'bg-black text-white' : ''} `}
+            className={`rounded-r-full xs:px-10 xl:px-14 py-2 duration-150 ${isYearly ? 'bg-black text-white' : ''} `}
           >
             Yearly
           </button>

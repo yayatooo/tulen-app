@@ -3,7 +3,7 @@ import React from 'react'
 export const LinkedFooter = () => {
   return (
     <div>
-        <div className='flex gap-20'>
+        <div className='flex xs:flex-col xl:flex-row xs:text-center xl:text-start gap-20'>
             <ul className='font-bold text-gray-300 space-y-8 py-6'>
             <h1 className='font-bold text-white text-3xl'>Company</h1>
                 <li>About</li>

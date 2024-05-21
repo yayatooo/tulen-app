@@ -7,12 +7,14 @@ export const ServicePage = () => {
   return (
     <main className="bg-primary py-28">
       <div className="container">
-        <h1 className="font-bold text-8xl text-font">What We Do</h1>
-        <div className="grid grid-cols-3 gap-8 py-16">
+        <h1 className="font-bold xs:text-5xl xl:text-8xl text-font">
+          What We Do
+        </h1>
+        <div className="xs:flex xs:flex-nowrap xs:overflow-x-auto xl:grid xl:grid-cols-3 xs:gap-4 xl:gap-8 py-16">
           {service.map((item) => {
             return (
               <div
-                className="h-[395px] w-[370px] border-solid border-4 border-black rounded-2xl space-y-4 p-8 hover:border-dashed"
+                className="xs:min-w-[90%] sm:min-w-[48%] xl:w-[370px] xl:h-[395px] border-solid border-4 border-black rounded-2xl space-y-4 p-8 hover:border-dashed"
                 key={item.id}
               >
                 <Image src={item.image} width={64} height={64} alt="card" />

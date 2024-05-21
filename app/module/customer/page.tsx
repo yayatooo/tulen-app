@@ -1,9 +1,9 @@
 import React from "react";
 
 export const CustomerPage = () => {
-    return (
-        <main className="bg-[#0014d2] py-20">
-      <div className="container flex justify-center gap-12">
+  return (
+    <main className="bg-[#0014d2] py-20">
+      <div className="container flex xs:flex-col xl:flex-row justify-center gap-12">
         <h1 className="font-bold text-6xl text-[#bbf026] flex flex-col items-center gap-6">
           15+ <span className="text-2xl text-white">Years of Experience</span>
         </h1>
@@ -15,5 +15,5 @@ export const CustomerPage = () => {
         </h1>
       </div>
     </main>
-    )
-}
+  );
+};

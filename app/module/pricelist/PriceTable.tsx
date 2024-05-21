@@ -9,7 +9,7 @@ interface TablePriceProps {
 
 export const PriceTable: React.FC<TablePriceProps> = ({price,plan}) => {
   return (
-    <div className="relative flex flex-col items-center border-4 border-black w-[370px] h-[570px] p-8">
+    <div className="relative flex flex-col items-center border-4 border-black xl:w-[370px] xl:h-[570px] xs:w-[270px] xs:h-[470] p-8">
       <div className="absolute -top-7 flex justify-center w-full">
           <svg
             width="45"
@@ -24,8 +24,8 @@ export const PriceTable: React.FC<TablePriceProps> = ({price,plan}) => {
             />
           </svg>
       </div>
-      <h1 className="font-bold text-5xl">{price}/mth</h1>
-      <h3 className="font-bold text-3xl">{plan} Plan</h3>
+      <h1 className="font-bold xs:text-3xl xl:text-5xl">{price}/mth</h1>
+      <h3 className="font-bold xs:text-xl xl:text-3xl">{plan} Plan</h3>
       <div className="py-10 space-y-8 font-bold w-11/12">
         <p className="flex items-center gap-6">
           <span className="w-12">

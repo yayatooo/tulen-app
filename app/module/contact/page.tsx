@@ -5,11 +5,11 @@ import { ButtonComponents } from "@/app/ui/ButtonComponents";
 
 export const ContactPage = () => {
   return (
-    <main className="flex">
-      <div className="bg-contactImage w-6/12 bg-cover bg-center flex justify-center items-center">
+    <main className="flex xs:flex-col xl:flex-row">
+      <div className="bg-contactImage xs:h-screen xl:h-[130vh] text-center xs:w-full xl:w-6/12 bg-cover bg-center flex justify-center items-center">
         <h1 className="text-7xl text-white font-bold">Get in Touch</h1>
       </div>
-      <div className="py-28 px-36 w-6/12">
+      <div className="py-28 xs:px-6 xl:px-36 xl:w-6/12 xs:w-full">
         <p className="font-medium text-gray-500 py-12">
           We are glad that you want to get in touch with us. If you have any
           questions comments or feedback please fill free to contact.

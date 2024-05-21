@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 export const TeamPage = () => {
   return (
     <main className="py-20 bg-sage">
-      <h1 className="text-8xl font-bold text-center">Our Team</h1>
+      <h1 className="xl:text-8xl xs:text-5xl font-bold text-center">Our Team</h1>
 
       <div className="py-16">
       <Marquee>
@@ -20,7 +20,7 @@ export const TeamPage = () => {
       </Marquee>
       </div>
 
-      <h1 className="text-2xl font-bold text-center w-4/12 mx-auto">
+      <h1 className="text-2xl font-bold text-center xs:w-full xl:w-4/12 mx-auto">
         Aliquam eleifend mi in nulla posuere sollicitudin. Quisque egestas diam
         in arcu cursus
       </h1>
