@@ -8,7 +8,7 @@ export const TeamPage = () => {
     <main className="py-20 bg-sage">
       <h1 className="xl:text-8xl xs:text-5xl font-bold text-center">Our Team</h1>
 
-      <div className="py-16">
+      <div className="py-16 z-0">
       <Marquee>
         <Image src="/team/1.png" width={360} height={370} alt="team" />
         <Image src="/team/2.png" width={360} height={370} alt="team" />

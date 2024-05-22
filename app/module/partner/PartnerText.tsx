@@ -13,7 +13,7 @@ export const PartnerText = () => {
             <span className="text-btn-primary">sollicitudin tempor id</span>
           </h1>
         </div>
-        <div className="absolute inset-0 xs:top-[107rem] xl:top-[125rem] flex justify-center items-center">
+        <div className="absolute z-10 inset-0 xs:top-[107rem] xl:top-[125rem] flex justify-center items-center">
           <Image
             src="/partner-section.png"
             alt="banner"
