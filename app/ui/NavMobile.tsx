@@ -15,8 +15,8 @@ export const NavMobile = ({ openMenu, setOpenMenu }: OpenMapProps) => {
   return (
     <div
       className={clsx(
-        "w-9/12 h-screen bg-font backdrop-blur-lg z-50 top-0 absolute text-white transition-all",
-        openMenu ? "right-0" : "-right-96"
+        "w-9/12 h-screen bg-font backdrop-blur-lg z-50 top-0 absolute text-white transition-all sm:hidden",
+        openMenu ? "right-0" : "-right-[35rem]"
       )}
     >
       <button className="float-right text-3xl pt-6 pr-8" onClick={closeMenu}>

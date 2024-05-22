@@ -28,7 +28,7 @@ export const Navbar = () => {
           <div className="xs:hidden xl:inline-block">
             <ButtonComponents variant="default">Get the App</ButtonComponents>
           </div>
-          <button className="text-4xl" onClick={clickMenu}>
+          <button className="text-4xl xl:hidden" onClick={clickMenu}>
             <IoMenu />
           </button>
         </section>
