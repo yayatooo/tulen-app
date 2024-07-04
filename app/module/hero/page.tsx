@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
-export const HeroPage = () => {
+const HeroPage: React.FC = () => {
   return (
     <main className="bg-primary py-24 text-[#252524]">
       <section className="container flex xs:flex-col xl:flex-row xs:px-6 gap-x-6 items-center">
@@ -34,3 +34,5 @@ export const HeroPage = () => {
     </main>
   );
 };
+
+export default HeroPage

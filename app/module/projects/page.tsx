@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { work } from "@/app/utility/data";
 
-export const ProjectsPage = () => {
+const ProjectsPage: React.FC = () => {
   return (
     <main className="py-20 container">
       <h1 className="xl:text-8xl xs:text-5xl text-center text-font font-bold">Latest Work</h1>
@@ -33,3 +33,5 @@ export const ProjectsPage = () => {
     </main>
   );
 };
+
+export default ProjectsPage

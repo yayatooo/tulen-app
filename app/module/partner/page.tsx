@@ -3,7 +3,7 @@ import Image from "next/image";
 import { PartnerText } from "./PartnerText";
 import { PartnerGrid } from "./PartnerGrid";
 
-export const PartnerPage = () => {
+const PartnerPage: React.FC = () => {
   return (
     <>
      <PartnerText/>
@@ -19,3 +19,5 @@ export const PartnerPage = () => {
     </>
   );
 };
+
+export default PartnerPage

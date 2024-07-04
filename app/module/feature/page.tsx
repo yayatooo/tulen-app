@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { HiSparkles } from "react-icons/hi2";
 
-export const FeaturePage = () => {
+const FeaturePage: React.FC = () => {
   return (
     <main className="py-20 bg-feature">
       <div className="container flex xs:flex-col xl:flex-row  justify-center gap-x-20">
@@ -42,3 +42,5 @@ export const FeaturePage = () => {
     </main>
   );
 };
+
+export default FeaturePage

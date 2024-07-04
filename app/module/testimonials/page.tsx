@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { GrCaretNext, GrCaretPrevious } from "react-icons/gr";
 
-export const TestimonialsPage = () => {
+const TestimonialsPage: React.FC = () => {
   return (
     <main className="py-20 bg-[#252425]">
       <div className="container">
@@ -24,18 +24,20 @@ export const TestimonialsPage = () => {
           </h1>
 
           <div className="mt-24 flex justify-between items-center">
-          <div>
-          <h1 className="text-3xl font-bold text-[#97fe87]">Bessie Cooper</h1>
-          <p className="text-xl font-semibold text-gray-400">CEO Amazon</p>
-        </div>
-        <div className="text-2xl text-white space-x-8">
-          <button>
-            <GrCaretPrevious />
-          </button>
-          <button>
-            <GrCaretNext />
-          </button>
-        </div>
+            <div>
+              <h1 className="text-3xl font-bold text-[#97fe87]">
+                Bessie Cooper
+              </h1>
+              <p className="text-xl font-semibold text-gray-400">CEO Amazon</p>
+            </div>
+            <div className="text-2xl text-white space-x-8">
+              <button>
+                <GrCaretPrevious />
+              </button>
+              <button>
+                <GrCaretNext />
+              </button>
+            </div>
           </div>
         </div>
         <div>
@@ -45,3 +47,5 @@ export const TestimonialsPage = () => {
     </main>
   );
 };
+
+export default TestimonialsPage;

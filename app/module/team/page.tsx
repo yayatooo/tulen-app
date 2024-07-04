@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-export const TeamPage = () => {
+const TeamPage: React.FC = () => {
   return (
     <main className="py-20 bg-sage">
       <h1 className="xl:text-8xl xs:text-5xl font-bold text-center">Our Team</h1>
@@ -30,3 +30,5 @@ export const TeamPage = () => {
     </main>
   );
 };
+
+export default TeamPage

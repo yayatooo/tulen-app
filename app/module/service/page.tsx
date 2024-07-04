@@ -3,7 +3,7 @@ import { service } from "@/app/utility/data";
 import Image from "next/image";
 import React from "react";
 
-export const ServicePage = () => {
+const ServicePage: React.FC = () => {
   return (
     <main className="bg-primary py-28">
       <div className="container">
@@ -32,3 +32,5 @@ export const ServicePage = () => {
     </main>
   );
 };
+
+export default ServicePage

@@ -2,7 +2,7 @@ import React from "react";
 import { ButtonSwitch } from "./ButtonSwitch";
 import { PriceTable } from "./PriceTable";
 
-export const PriceListPage = () => {
+const PriceListPage: React.FC = () => {
   return (
     <main className="bg-primary py-28">
       <div className="lg:container xs:px-6">
@@ -20,3 +20,5 @@ export const PriceListPage = () => {
     </main>
   );
 };
+
+export default PriceListPage

@@ -3,7 +3,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ButtonComponents } from "@/app/ui/ButtonComponents";
 
-export const ContactPage = () => {
+// Ensure that the component is exported as the default export
+const ContactPage: React.FC = () => {
   return (
     <main className="flex xs:flex-col xl:flex-row">
       <div className="bg-contactImage xs:h-screen xl:h-[130vh] text-center xs:w-full xl:w-6/12 bg-cover bg-center flex justify-center items-center">
@@ -26,11 +27,6 @@ export const ContactPage = () => {
             placeholder="Your Budget"
             className="rounded-none p-8 text-black"
           />
-          <Input
-            type=""
-            placeholder="Your Budget"
-            className="rounded-none p-8 text-black"
-          />
           <Textarea
             placeholder="Additional Information"
             className="rounded-none p-8 text-black"
@@ -41,3 +37,5 @@ export const ContactPage = () => {
     </main>
   );
 };
+
+export default ContactPage;

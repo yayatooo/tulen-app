@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CustomerPage = () => {
+const CustomerPage: React.FC = () => {
   return (
     <main className="bg-[#0014d2] py-20">
       <div className="container flex xs:flex-col xl:flex-row justify-center gap-12">
@@ -17,3 +17,5 @@ export const CustomerPage = () => {
     </main>
   );
 };
+
+export default CustomerPage
